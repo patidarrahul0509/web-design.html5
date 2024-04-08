@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module html5|html</title>
+</head>
+<body>
+    <h1>module HTML5</h1>
+    <h2>1. What are the new tags added in HTML5? </h2>
+    <p>Tags (Elements)	Description
+        <br>
+        &lt;article&gt;	Represents an independent piece of content of a document, such as a blog entry or newspaper article
+        <br>
+        &lt;aside&gt;	Represents a piece of content that is only slightly related to the rest of the page.
+
+        <br>
+        &lt;audio&gt;	Defines an audio file.
+        <br>
+        &lt;canvas&gt;	This is used for rendering dynamic bitmap graphics on the fly, such as graphs or games.
+<br>
+        &lt;command&gt;	Represents a command the user can invoke.
+
+        &lt;datalist&gt;	Together with the a new list attribute for input can be used to make comboboxes
+<br>
+        &lt;details&gt;	Represents additional information or controls which the user can obtain on demand
+<br>
+        &lt;embed&gt;	Defines external interactive content or plugin.
+<br>
+        &lt;figure&gt;	Represents a piece of self-contained flow content, typically referenced as a single unit from the main flow of the document.
+<br>
+        &lt;footer&gt;	Represents a footer for a section and can contain information about the author, copyright information, et cetera.
+<br>
+        &lt;header&gt;	Represents a group of introductory or navigational aids.
+<br>
+        &lt;hgroup&gt;	Represents the header of a section.
+<br>
+        &lt;keygen&gt;	Represents control for key pair generation.
+<br>
+        &lt;mark&gt;	Represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.
+<br>
+        &lt;meter&gt;	Represents a measurement, such as disk usage.
+<br>
+        &lt;nav&gt;	Represents a section of the document intended for navigation.
+<br>
+        &lt;output&gt;	Represents some type of output, such as from a calculation done through scripting.
+<br>
+        &lt;progress&gt;	Represents a completion of a task, such as downloading or when performing a series of expensive operations.
+<br>
+        &lt;ruby&gt;	Together with &lt;rt&gt; and &lt;rp&gt; allow for marking up ruby annotations.
+<br>
+        &lt;section&gt;	Represents a generic document or application section
+<br>
+        &lt;time&gt;	Represents a date and/or time.
+<br>
+        &lt;video&gt;	Defines a video file.
+<br>
+        &lt;wbr&gt;	Represents a line break opportunity.
+        <br>  </p>
+        <hr>
+        <h2>2. How to embed audio and video in a webpage?</h2>
+        <p>   The HTML5 (audio and video) tags make it simple to add media to a website. You need to set src attribute to identify the media source and include a controls attribute so the user can play and pause the media.</p>
+        
+       
+        <div>
+            <video  width = "300" height = "200" controls autoplay>
+                <source src = "videoplayback.mp4" type ="video/ogg" />
+                <source src = "videoplayback.mp4" type = "video/mp4" />
+                Your browser does not support the <video> element.
+                </video>
+         </div>
+         <div>
+        <audio controls autoplay>
+            <source src = "stomps-and-claps-percussion-and-rhythm-141190.mp3" type = "" />
+            <!-- <source src = "stomps-and-claps-percussion-and-rhythm-141190.mp3" type = "" /> -->
+            Your browser does not support the <audio> element.
+            </audio> 
+        </div>
+        <hr>
+        <h2>3.Semantic element in HTML5? </h2>
+        <p>HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed.
+                <br>
+                <br>
+                <br>
+                Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.
+                <br>
+                <br>
+                <br>
+                Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways. Rather than using the  &lt; table&gt; &lt;/table&gt; to describe information using a table, programmers would use them to position other elements on a page.
+                <br>
+                <br>
+                <br>
+                As the use of visually designed layouts progressed, programmers started to use a generic “non-semantic” tag like &lt;div&gt;. They would often give these elements a class or id attribute to describe their purpose. For example, instead of  &lt;header&gt; this was often written as  &lt;div class="header"&gt;.
+                <br>
+                <br>
+                <br>
+                As HTML5 is still relatively new, this use of non-semantic elements is still very common on websites today.</p>
+        <hr>
+        <h2>4.Canvas and SVG tags</h2>
+        <p>
+        SVG (Scalable Vector Graphics) is an XML based markup language used to describe 2D vector graphics. Canvas, on the other hand, allows users to draw on the HTML Canvas element via a JavaScript API.
+        <br>
+        <br>
+        <br>
+        The &lt;svg&gt; tag defines a container for SVG graphics. SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+        <br>
+        <br>
+        <br>        
+        The &lt;canvas&gt; tag is used to draw graphics, on the fly, via scripting (usually JavaScript). The &lt;canvas&gt; tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.
+
+        </p>
+        </body>
+        </html>
